@@ -13,7 +13,6 @@ class SingleRoom extends Component {
     console.log(this.props)
     this.state = {
       slug: this.props.router.params.slug,
-      defaultBcg: defaultBcg,
     }
   }
   // this.props.match.params.slug
